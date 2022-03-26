@@ -1,0 +1,28 @@
+{
+  "name": "nub-auth",
+  "version": "0.0.1",
+  "description": "a very simple, minimalistic basic authentication tool, that will mostly serve as a middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allaye/nub-auth.git"
+  },
+  "keywords": [
+    "basic-auth",
+    "auth"
+  ],
+  "author": "Kolade Gideon (Allaye)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Allaye/nub-auth/issues"
+  },
+  "homepage": "https://github.com/Allaye/nub-auth#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express": "^4.17.3",
+    "tsscmp": "^1.0.6"
+  }
+}
