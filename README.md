@@ -26,7 +26,7 @@ The module interface exposes just a single function that expects a single argume
 
 ``` app.js
 var express = require('express');
-var nubAuth = require('./middleware.js');
+var nubAuth = require('nub-auth');
 app = express();
 
 app.use(['/v1'], nubAuth({
