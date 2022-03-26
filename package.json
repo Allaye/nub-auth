@@ -4,7 +4,6 @@
   "description": "a very simple, minimalistic basic authentication tool, that will mostly serve as a middleware.",
   "main": "index.js",
   "scripts": {
-    "test": "test/test.js"
   },
   "repository": {
     "type": "git",
