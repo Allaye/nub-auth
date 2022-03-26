@@ -4,7 +4,7 @@
   "description": "a very simple, minimalistic basic authentication tool, that will mostly serve as a middleware.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test/test.js"
   },
   "repository": {
     "type": "git",
