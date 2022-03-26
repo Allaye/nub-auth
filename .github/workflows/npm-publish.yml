@@ -30,4 +30,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.nub_auth_secret}}
+          NODE_AUTH_TOKEN: ${{secrets.NUB_AUTH_SECRET}}
