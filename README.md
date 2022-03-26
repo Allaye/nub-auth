@@ -1,6 +1,31 @@
 # nub-auth
+
+[![npm version](https://badge.fury.io/js/express-basic-auth.svg)](https://badge.fury.io/js/express-basic-auth)
+[![npm](https://img.shields.io/npm/dm/express-basic-auth.svg)]()
+[![CircleCI](https://circleci.com/gh/LionC/express-basic-auth/tree/master.svg?style=shield&circle-token=74f7b1557100b45259e67d2492c263e4f99365d4)](https://circleci.com/gh/LionC/express-basic-auth/tree/master)
+[![David](https://img.shields.io/david/strongloop/express.svg)]()
+![TypeScript compatible](https://img.shields.io/badge/typescript-compatible-brightgreen.svg)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
+
+
 a very simple, minimalistic basic authentication tool, that will mostly serve as a middleware.
 
+## How to Install and Installation information
+
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/). Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+type below command in your terminal
+```
+npm install nub-auth
+```
+
+## How to use it
+The module interface exposes just a single function that expects a single argument
+
+``` app.js
 var express = require('express');
 var nubAuth = require('./middleware.js');
 app = express();
@@ -25,7 +50,12 @@ app.listen(3000, function() {
     console.log('Example app listening on port 3000!');
 });
 
-// app.use(["/api2"], nubAuth({
-//     users: {},
-//     challenge: true
-// }));
+```
+
+### argument users
+
+You should pass an objects with users and password as key value pairs
+
+### argument chanllenge
+
+By defaults the tools does not force the browser to display a basic chanllenge to the user, set this to true to force the browser to display a chanllenge. NB browsers like chromium edge will not display a chanellege, you have to set this on your browser settings.
