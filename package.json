@@ -1,6 +1,6 @@
 {
   "name": "nub-auth",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "a very simple, minimalistic basic authentication tool, that will mostly serve as a middleware.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "basic-auth",
-    "auth"
+    "auth",
+    "authentication",
+    "swagger-auth"
   ],
   "author": "Kolade Gideon (Allaye)",
   "license": "MIT",
