@@ -2,7 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/nub-auth.svg)](https://badge.fury.io/js/nub-auth)
 [![npm](https://img.shields.io/npm/dm/nub-auth.svg)]()
-[![David](https://img.shields.io/david/strongloop/express.svg)]()
 ![TypeScript compatible](https://img.shields.io/badge/typescript-compatible-brightgreen.svg)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
